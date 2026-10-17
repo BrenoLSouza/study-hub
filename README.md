@@ -6,7 +6,7 @@ O **Study Hub** é um índice central e evolutivo para organizar estudos, projet
 
 ## 🌐 Site
 
-Depois da publicação: `https://BrenoLSouza.github.io/study-hub/` (substitua `BrenoLSouza`).
+https://BrenoLSouza.github.io/study-hub/
 
 ## 🧭 Arquitetura
 
