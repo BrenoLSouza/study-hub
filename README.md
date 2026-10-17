@@ -24,27 +24,6 @@ O PDF de arquitetura sugere repositórios independentes por disciplina. **Nesta 
 
 HTML5, CSS3, JavaScript, Markdown, Git e GitHub Pages. Sem framework, instalação ou build obrigatório.
 
-## 🚀 Executar localmente
-
-Abra a pasta no VS Code e execute `docs/index.html` com a extensão Live Server, ou use:
-
-```bash
-python -m http.server 8000 --directory docs
-```
-
-Acesse `http://localhost:8000`.
-
-## 📤 Publicar
-
-1. Edite `docs/assets/js/config.js` com seu usuário GitHub e seus links.
-2. No terminal do VS Code: `git init`, `git add .`, `git commit -m "feat: estrutura inicial do Study Hub"`.
-3. Crie no GitHub um repositório **público** chamado `study-hub` (sem arquivos iniciais).
-4. Execute `git branch -M main`, `git remote add origin https://github.com/BrenoLSouza/study-hub.git` e `git push -u origin main`.
-5. No GitHub: **Settings → Pages → Deploy from a branch → main → /docs → Save**.
-6. Confira o site em `https://BrenoLSouza.github.io/study-hub/`.
-
-Veja o guia detalhado em [`GUIA-GIT-GITHUB-PAGES.md`](GUIA-GIT-GITHUB-PAGES.md).
-
 ## 📚 Documentação de projetos
 
 Cada projeto usa cinco etapas: **Objetivo → Solução → Desenvolvimento → Testes → Resultados**, seguindo o modelo em [`templates/README-PROJETO.md`](templates/README-PROJETO.md).
